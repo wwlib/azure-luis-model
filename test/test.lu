@@ -1,0 +1,16 @@
+> LUIS application information
+> !# @app.name = robokit
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.0.0
+
+
+> # Intents to test
+
+## gameCommand
+- east
+- i would like to continue
+- i would like to equip the sword
+- let's equip my sword
+- let's exit
+- let's open the chest

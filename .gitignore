@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+data/*config.json
+hide
+
+.ipynb_checkpoints
+.vscode
+lib
+
+test/results/*
+!test/results/test-results-go-here.txt
+tts-out.wav

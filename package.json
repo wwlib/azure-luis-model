@@ -1,0 +1,22 @@
+{
+  "name": "azure-luis-model",
+  "version": "0.0.1",
+  "description": "A repo for developing Azure LUIS models.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/test-lu-model.js",
+    "build:json": "node scripts/build-luis-json.js",
+    "import": "npm run build:json && node scripts/import-model.js",
+    "train": "node scripts/train-model.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wwlib/azure-luis-model.git"
+  },
+  "author": "Andrew Rapo",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/botframework-cli": "^4.9.0",
+    "cognitiveserviceslib": "wwlib/cognitiveserviceslib#v0.0.5"
+  }
+}
